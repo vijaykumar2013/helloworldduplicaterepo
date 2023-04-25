@@ -14,7 +14,7 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 
-				 git branch: 'QA', credentialsId: 'githubcred', url: 'https://github.com/vjaytech/hello-world.git'
+		git branch: 'QA', credentialsId: 'githubcred', url: 'https://github.com/vjaytech/hello-world.git'
                 
             }
         }
